@@ -180,3 +180,20 @@ input:hover {
     border-bottom-right-radius: 5px;
     cursor: pointer;
 }
+
+/* Footer Section */
+footer {
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
