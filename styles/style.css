@@ -34,7 +34,7 @@ body {
     color: rgb(231, 231, 231);
 }
 
-button {
+.btn {
     padding: 17px 20px;
     background-color: #ff5959;
     color: white;
@@ -42,4 +42,55 @@ button {
     border: none;
     border-radius: 10px;
     margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Donation Section */
+#donation-section {
+    height: 100vh;
+    width: 10vw;
+}
+.donation-content {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donation-content h1 {
+    font-size: 70px;
+}
+
+.donation-content p {
+    font-size: 20px;
+    color: #707070;
+}
+
+.donation-btn {
+    margin: 20px;
+    padding: 40px 30px;
+    color: #707070;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.donation-btn:hover {
+    color: #ff5959;
+    border: 1px solid #ff5959;
+    background-color: #ffeeee;
+}
+input {
+    height: 60px;
+    border: none;
+    font-size: 25px;
+}
+input:hover {
+    border: none;
+    outline: none;
 }
